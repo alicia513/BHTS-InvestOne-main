@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <link href="login-style.css" rel="stylesheet" type="text/css"/>
+        <title> Register </title>
+    </head>
+    <body>
+        <header id = "title">
+            Register
+        </header>
+    
+        <form action = "/registration" method = "POST"> 
+            <fieldset class = "login-register">
+                <label> Username </label>
+                <input type = "text" id = 'username' name = "username" placeholder = "InvestOne" required>
+                <br>
+                
+                <label> Email </label>
+                <input type = "text" id = "email" name = "email" placeholder = "InvestOne@gmail.com" required>
+                <br>
+                
+                <label> Password </label>
+                <input type = "password" id = "password" name = "password" required>
+                <br>
+
+                <button type = "submit"> Register </button>
+            </fieldset>
+        </form>    
+    </body>
+</html>

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title> InvestOne </title>
+
+  <script src="https://kit.fontawesome.com/672b3a8851.js" crossorigin="anonymous"></script>
+  <script defer src="https://friconix.com/cdn/friconix.js"> </script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- 
+  Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="body mx-auto">
+  <!--NAVBAR-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand anton" href="#">InvestOne</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="portfolio.html">Portfolio (You're Here!)</a>
+          </li>
+          <li class="nav-item active dropdown">
+            <a class="nav-link dropdown-toggle" href="page3" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Investment Options
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="portfolio.htmll#FE">Stocks</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="portfolio.html#COD">Real Estate</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="portfolio.html#NBA">Certificates of Deposits</a></li>
+               <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="portfolio.html#GTA">Bonds</a></li>
+               <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="portfolio.html#MN2">Mutual Funds</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--NAVBAR END-->
+
+
+<!--Investment Section-->
+<section class="games">
+
+  <style>
+    .container {
+      position: relative; /* Set position to relative */
+      top: 50px; /* Adjust the value to lower the container */
+    }
+  </style>
+  
+<div class="container">
+
+    <h1> Smart Spending</h1>
+    <p> Tips To Meet Budgeting Goals</p>
+<hr>
+
+    <!--Item 1-->
+<div class="row">
+
+    <div id="FE" class="col-md-12 p-4">
+
+    <img src="50_30_20_Budget_Rule.webp" height = 300, width = 300>
+    <br>
+
+    <!--Content-->
+    <span><h5><i class="fi-xnsuxl-star-solid"></i> 50/30/20 Rule</h5></span>
+      <!-- asking how much the audience would like to invest -->
+        <form action="/action_page.php">
+          <label for="investment"> You allocate half of your income for necessities, 30% for things you want, and the remaining 20% for savings and debt repayment. It's a simple way to budget your money and make sure you're covering all your bases financially.:</label><br><br>
+          
+        </form>
+    </div>
+
+      <!--Item 2-->
+      <div id="COD" class="col-md-12 p-4">
+      <img src="cash-1296585_960_720.webp" height = 300, width = 300>
+    <br>  
+
+      <!--Content-->
+      <span><h5><i class="fi-xnsuxl-star-solid"></i> Automate Savings</h5></span>
+      
+        <!-- asking how much the audience would like to invest -->
+        <form action="/action_page.php">
+          <label for="investment"> Set up automatic transfers from your checking account to your savings account. This way, you're consistently putting money aside without having to think about it.
+
+</label><br><br>
+          
+        </form>
+      </div>
+
+      <!--Item 3-->
+    <div  id="NBA" class="col-md-12 p-4">
+    <img src="-shopping-cart-free-png.webp" height = 300, width = 300>
+    <br>
+
+    <!--Content-->
+    <span><h5><i class="fi-xnsuxl-star-solid"></i> Shop Smarter</h5></span>
+    
+      <!-- asking how much the audience would like to invest -->
+      <form action="/action_page.php">
+        <label for="investment">  Look for sales, use coupons, and compare prices before making purchases. Buying generic brands and shopping at discount stores can also help you save money on groceries and household items.</label><br><br>
+        
+      </form>
+    </div>
+
+    <!--Item 4-->
+      <div  id="GTA" class="col-md-12 p-4">
+      <img src="img/bonds.jpg" height = 300, width = 300>
+    <br>
+
+      <!--Content-->
+    <span><h5><i class="fi-xnsuxl-star-solid"></i> Bonds</h5></span>
+    <p>$30</p>
+        <!-- asking how much the audience would like to invest -->
+        <form action="/action_page.php">
+          <label for="investment"> How much would you like to invest:</label><br><br>
+          <input type="number" id="quantity" name="amount" placeholder="123" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+          <input type="submit">
+        </form>
+      </div>
+
+
+     <!--Item 5-->
+      <div  id="MN2" class="col-md-12 p-4">
+      <img src="img/funds.jpg" height = 300, width = 300>
+    <br>
+
+      <!--Content-->
+    <span><h5><i class="fi-xnsuxl-star-solid"></i>Mutual Funds</h5></span>
+    <p>$55</p>
+        <!-- asking how much the audience would like to invest -->
+        <form action="/action_page.php">
+          <label for="investment"> How much would you like to invest:</label><br><br>
+          <input type="number" id="quantity" name="amount" placeholder="123" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+          <input type="submit">
+        </form>
+      </div>
+    </div>
+
+</div>
+    </div>
+</div>
+
+
+</section>
+<!--End of Games-->
+
+<!-- Services Section -->
+<section class="services">
+<div class="container">
+
+    <h1>Expense Trakccer</h1>
+    <p>Try our expense tracker for easy budgeting!</p>
+<hr>
+
+    <!--Row 1-->
+<div id="QW" class="row">
+
+      <!--Column 2.1-->
+    <div class="col-md-6">
+
+    <br>
+      
+    <!--Content-->
+    <i class="fi-xnsuxl-star-solid"></i>
+    <span><a href="expensetracker.html"> Expense Tracker</a></span>
+    <p>Join our Quarterly Investment Workshops, where knowledge meets action in a dynamic learning environment. Each quarter, we bring together seasoned experts and eager investors for intensive workshops designed to dissect market trends, unveil emerging opportunities, and equip participants with actionable strategies. Don't miss your chance to stay ahead of the curve and elevate your investment game with our quarterly workshops.</p>
+    </div>
+
+      <!--Column 2.2-->
+      <div id="Intern" class="col-md-6">
+    <br>  
+      <!--Content-->
+        <i class="fi-xnsuxl-star-solid"></i>
+      <span>InvestSummit</span>
+      <p>Embark on an immersive journey at InvestSummit, a week-long exploration of investment opportunities, strategies, and trends. From insightful keynotes to interactive workshops, engage with industry leaders, experts, and fellow investors to gain valuable insights and forge meaningful connections. </p>
+      </div>
+</div>
+<!--End of Columns Row 1-->
+<br>
+<!--Row 2-->
+<div class="row">
+      <!--Column 2.1-->
+    <div id="GD" class="col-md-6">
+    <br>
+
+    <!--Content-->
+      <i class="fi-xnsuxl-star-solid"></i>
+    <span>InvestDay</span>
+    <p>InvestOne hosts an investment gathering annual. A dynamic gathering where investors, financial experts, and entrepreneurs converge to explore opportunities, share insights, and navigate the world of investments. </p>
+    </div>
+
+      <!--Column 2.2-->
+      <div id="ME" class="col-md-6">
+    <br>
+
+      <!--Content-->
+    <i class="fi-xnsuxl-star-solid"></i>
+    <span>Meet Experts</span>
+    <p>InvestOne offers the opportunities to connect with field experts and learn more about their personalized financial plan.
+</p>
+      </div>
+    </div>
+</div>
+</section>
+
+          <!-- FOOTER-->
+        <div class="my-5">
+          <!-- change bg colour-->
+          <footer class="text-center text-lg-start text-white" style="background-color: #1c2331">
+            <!-- Section: Social media -->
+   <section
+               class="d-flex justify-content-between p-3"
+               style="background-color: #6351ce"
+               >
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+       <div class="">
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+            <!-- Section: Links  -->
+            <section class="">
+              <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                  <!-- Grid column -->
+                  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <h6 class="text-uppercase fw-bold anton"><i class="bi bi-coin"></i> InvestOne</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p>
+                      InvestOne provides customers with a place to invest in as much as they want with the companion with a personal investment online assistant.
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Services</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p>
+                      <a href="portfolio.html"> Portfolio</a>
+                      <!-- <a href="Services.html#QW" class="text-white">Quarterly Workshops</a> -->
+                    </p>
+                    <p>
+                      <a href="portfolio.html#Intern" class="text-white">InvestSummit</a>
+                    </p>
+                    <p>
+                      <a href="portfolio.html#GD" class="text-white">InvestDay</a>
+                    </p>
+                    <p>
+                      <a href="portfolio.html#ME" class="text-white">Meet Experts</a>
+                    </p>
+                  </div>
+                  <!-- Grid column -->
+
+                  <!-- Grid column -->
+                  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="text-uppercase fw-bold">Contact</h6>
+                    <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                      style="width: 60px; background-color: #7c4dff; height: 2px" />
+                    <p><i class="fas fa-home mr-3"></i> 47 Revolutionary Rd<br>Ossining, NY, 10562</p>
+                    <p><i class="fas fa-envelope mr-3"></i> InvestOne@yahoo.com</p>
+                    <p><i class="fas fa-phone mr-3"></i> (203) 775-4857</p>
+                  </div>
+                  <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+              </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+              © 2024 Copyright:
+              <a class="text-white" href="https://06fcd63b-19a6-43d3-9c02-41a5cccb4363-00-222w7delqcltu.janeway.replit.dev/">InvestOne</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+          <!-- Footer -->
+
+        </div>
+  <!-- END OF FOOTER-->
+
+      <!-- JavaScript Bundle with Popper -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+      </footer>
+      <script src="js/app.js"></script>
+      <script src='script.js'></script>
+      <!--     no code outside of the body --></script>
+        <script src="js/app.js"></script>
+      <script src='script.js'></script>
+</footer>
+</body>
+
+</html>
